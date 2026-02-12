@@ -8,7 +8,7 @@ export const About = ({setPlayState}) => {
     <div className='about container'>
         <div className="about-left">
             <img src={about_img} alt="" className='about-img' />
-            <img src={play_icon} alt="" className='play-icon' onCanPlay={()=>{setPlayState(true)}} />
+            <img src={play_icon} alt="" className='play-icon' onClick={()=>{setPlayState(true)}} />
         </div>
         <div className="about-right">
             <h3>ABOUT UNIVERSITY</h3>
